@@ -1,0 +1,131 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,200&family=Comfortaa:wght@300&family=Josefin+Slab:wght@500&display=swap');
+header {
+    background-color: RGBA(0,0,0, .25);
+    font-family: 'Barlow Condensed', sans-serif;
+    color: whitesmoke;
+    text-align: left;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 4px solid white;
+    position: relative;
+}
+#tags {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    padding: .5em;
+    font-size: 25px;
+    letter-spacing: 30px;
+    }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif background-color: black;
+    color: crimson;
+    background: url('../Images/Black background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: dimgrey;
+}
+h1 {
+    z-index:500;
+    color: ghostwhite;
+}
+#h1 {
+    text-decoration: underline;
+    color: ghostwhite;        
+}
+
+main {
+    background-color: RGBA(0, 0, 0, .5);
+    width: 90%;
+    margin: auto;
+    padding: 1.25em;
+    }
+
+#h2 {
+    color: ghostwhite;
+    font-weight: bold;          
+}
+
+footer {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    }
+
+/*Navigation Styling*/
+
+a{
+    color: crimson;
+    font-weight: lighter;
+    text-decoration: none;
+}
+nav a {
+    font-weight: lighter;
+    color: ghostwhite;
+}
+nav ul {
+       border-left: 2px solid white;
+       border-right: 2px solid white;
+}
+
+nav ul li {
+        display: inline-block;
+        color: ghostwhite;
+    }
+
+a:hover, a:active, a:focus, .selected {
+    background-color: crimson;
+    color: ghostwhite;
+}
+
+
+nav ul li a {
+    padding: .1em .75em;
+    display: compact;
+}
+
+/*Fonts*/
+/*Google Fonts
+    font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Comfortaa', cursive;
+font-family: 'Josefin Slab', serif;
+*/
+#font1{
+    font-family: 'Times New Roman', Times, serif;
+    }
+#font2 {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+#font3 {
+    font-family: 'Comfortaa', cursive;
+}
+#font4 {
+    font-family: 'Josefin Slab', serif;
+}
+/*Table Styles*/
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    text-align: center;
+    margin: auto;
+    color: black;
+}
+
+th, td {
+    padding: .3em;
+}
+
+thead, tfoot {
+    background-color: #AAA;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #999;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #777;
+}

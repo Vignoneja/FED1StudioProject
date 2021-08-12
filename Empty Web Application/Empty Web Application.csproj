@@ -69,7 +69,35 @@
   <ItemGroup>
     <Content Include="Classes.html" />
     <Content Include="Contact.html" />
-    <Content Include="Stylesheets\Black,Red &amp; White.css" />
+    <Content Include="font-awesome-4.7.0\css\font-awesome.css" />
+    <Content Include="font-awesome-4.7.0\css\font-awesome.min.css" />
+    <Content Include="font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="font-awesome-4.7.0\HELP-US-OUT.txt" />
+    <Content Include="Images\Animal sleeping.jpg" />
+    <Content Include="Images\Black background.jpg" />
+    <Content Include="Images\Dull subjects 2.jpg" />
+    <Content Include="Images\Dull Subjects.jpg" />
+    <Content Include="Images\Face 1.jpg" />
+    <Content Include="Images\Face 10.jpg" />
+    <Content Include="Images\Face 11.jpg" />
+    <Content Include="Images\Face 12.jpg" />
+    <Content Include="Images\Face 2.jpg" />
+    <Content Include="Images\Face 3.jpg" />
+    <Content Include="Images\Face 4.jpg" />
+    <Content Include="Images\Face 5.jpg" />
+    <Content Include="Images\Face 6.jpg" />
+    <Content Include="Images\Face 7.jpg" />
+    <Content Include="Images\Face 8.jpg" />
+    <Content Include="Images\Face 9.jpg" />
+    <Content Include="CSS\Custom.css" />
+    <Content Include="Images\Horrible Sleep.jpg" />
+    <Content Include="Images\Inception class.jpg" />
+    <Content Include="Images\Room Darkening.jpg" />
+    <Content Include="Images\Sleep anywhere.jpg" />
+    <Content Include="Images\Sleep like a baby.JPG" />
+    <Content Include="Images\sleep logo.png" />
+    <Content Include="Images\Sleeping on a plane class.jpg" />
+    <Content Include="Images\Wide Awake.jpg" />
     <Content Include="Team.html" />
     <Content Include="Index.html" />
     <Content Include="Web.config" />
@@ -78,6 +106,39 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="font-awesome-4.7.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="font-awesome-4.7.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="font-awesome-4.7.0\fonts\fontawesome-webfont.woff2" />
+    <Content Include="font-awesome-4.7.0\fonts\FontAwesome.otf" />
+    <Content Include="font-awesome-4.7.0\less\animated.less" />
+    <Content Include="font-awesome-4.7.0\less\bordered-pulled.less" />
+    <Content Include="font-awesome-4.7.0\less\core.less" />
+    <Content Include="font-awesome-4.7.0\less\fixed-width.less" />
+    <Content Include="font-awesome-4.7.0\less\font-awesome.less" />
+    <Content Include="font-awesome-4.7.0\less\icons.less" />
+    <Content Include="font-awesome-4.7.0\less\larger.less" />
+    <Content Include="font-awesome-4.7.0\less\list.less" />
+    <Content Include="font-awesome-4.7.0\less\mixins.less" />
+    <Content Include="font-awesome-4.7.0\less\path.less" />
+    <Content Include="font-awesome-4.7.0\less\rotated-flipped.less" />
+    <Content Include="font-awesome-4.7.0\less\screen-reader.less" />
+    <Content Include="font-awesome-4.7.0\less\stacked.less" />
+    <Content Include="font-awesome-4.7.0\less\variables.less" />
+    <Content Include="font-awesome-4.7.0\scss\font-awesome.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_animated.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_bordered-pulled.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_core.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_fixed-width.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_icons.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_larger.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_list.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_mixins.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_path.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_rotated-flipped.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_screen-reader.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_stacked.scss" />
+    <Content Include="font-awesome-4.7.0\scss\_variables.scss" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -87,8 +148,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Images\" />
     <Folder Include="Scripts\" />
+    <Folder Include="Stylesheets\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
