@@ -1,23 +1,23 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,200&family=Comfortaa:wght@300&family=Josefin+Slab:wght@500&display=swap');
+
 header {
     background-color: RGBA(0,0,0, .25);
     font-family: 'Barlow Condensed', sans-serif;
     color: whitesmoke;
     text-align: left;
-    border-top: 2px solid white;
-    border-left: 2px solid white;
-    border-right: 2px solid white;
-    border-bottom: 4px solid white;
-    position: relative;
+    border: solid
+    
 }
-#tags {
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    padding: .5em;
-    font-size: 25px;
-    letter-spacing: 30px;
-    }
+#HeaderTags {
+    position: relative;
+    float: right;
+    top: 1em;
+    font-size: 1em;
+    letter-spacing: 3em;
+    margin-right : 3em;
+    display : block;
+    padding : .01em;
+}
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif background-color: black;
     color: crimson;
@@ -26,7 +26,7 @@ body {
     background-color: dimgrey;
 }
 h1 {
-    z-index:500;
+    z-index: 500;
     color: ghostwhite;
 }
 #h1 {
@@ -35,26 +35,85 @@ h1 {
 }
 
 main {
-    background-color: RGBA(0, 0, 0, .5);
-    width: 90%;
-    margin: auto;
-    padding: 1.25em;
-    }
+     background-color: RGBA(0, 0, 0, .5);
+     padding: 1.25em;
+     
+}
 
 #h2 {
     color: ghostwhite;
-    font-weight: bold;          
+    font-weight: bold;
+    text-align: center;
+    position: relative;
 }
 
+#FooterTags {
+    float: right;
+    top: 1em;
+    font-size: 1em;
+    letter-spacing: 3em;
+    margin-right: 3em;
+    display: block;    
+}
 footer {
-    background-color: black;
+    background-color: RGBA(0,0,0, .25);
+    font-family: 'Barlow Condensed', sans-serif;
     color: whitesmoke;
+    text-align: left;
+    border: solid;
+
+}
+
+/*#aboutUs{
+    float: right;
+
+   Need to get this to work.
+ }
+*/
+article.about{
+    width:75%;
+    margin:auto;
+}
+
+.about img{
+    float:left;
+    margin-right: 2em;
+}
+
+.chooseUs h2{
+    font-size: 56px;
+    font-weight: bold;
     text-align: center;
-    }
+    color: whitesmoke;
+}
+.section1 img{
+    margin-right:2em;
+    float: left;
+}
+.section1 p{
+    margin-right: 3em;
+}
+.section2 img{
+    margin-left: 2em;
+    float:right;
+}
+.section2 p{
+    margin: 3em;
+}
+
+.clear {
+    clear: both;
+}
+.wrap1{
+    float: right;
+}
+.wrap2{
+    float: left;
+}
 
 /*Navigation Styling*/
 
-a{
+a {
     color: crimson;
     font-weight: lighter;
     text-decoration: none;
@@ -63,7 +122,7 @@ nav a {
     font-weight: lighter;
     color: ghostwhite;
 }
-nav ul {
+#navBar {
        border-left: 2px solid white;
        border-right: 2px solid white;
 }
@@ -128,4 +187,24 @@ tbody tr:nth-child(odd) {
 
 tbody tr:nth-child(even) {
     background-color: #777;
+}
+header a {
+    float: left;
+    padding: 1em;
+}
+
+
+#teamRightColumn
+{
+    width: 15%;
+    float: right;
+    border-left: 2px;
+    padding-left: 1em;
+}
+
+#teamLeftColumn 
+{
+    width: 65%;
+    border-right: 2px solid ghostwhite;
+    padding-left: 1em;
 }
