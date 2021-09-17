@@ -6,38 +6,40 @@ header {
     color: whitesmoke;
     text-align: left;
     border: solid
-    
 }
+
 #HeaderTags {
-    position: relative;
     float: right;
+    padding: 2em;
     top: 1em;
-    font-size: 1em;
+    font-size: 1.25em;
     letter-spacing: 3em;
-    margin-right : 3em;
-    display : block;
-    padding : .01em;
+    margin-right: 3em;
+    display: block;
 }
+
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
     color: crimson;
     background: url('../Images/Black background.jpg') no-repeat center center fixed;
     background-size: cover;
     background-color: dimgrey;
 }
-h1 {
+/*h1 {
     z-index: 500;
-    color: ghostwhite;
+    color: ghostwhite;*/
 }
-#h1 {
+
+#h1 coName {
     text-decoration: underline;
-    color: ghostwhite;        
+    color: ghostwhite;
+    font-family: 'Josefin Slab', serif;
 }
 
 main {
-     background-color: RGBA(0, 0, 0, .5);
-     padding: 1.25em;
-     
+    background-color: RGBA(0, 0, 0, .5);
+    padding: 1.25em;
 }
 
 #h2 {
@@ -50,18 +52,19 @@ main {
 #FooterTags {
     float: right;
     top: 1em;
-    font-size: 1em;
+    font-size: 1.25em;
     letter-spacing: 3em;
     margin-right: 3em;
-    display: block;    
+    display: block;
 }
+
 footer {
     background-color: RGBA(0,0,0, .25);
     font-family: 'Barlow Condensed', sans-serif;
     color: whitesmoke;
-    text-align: left;
     border: solid;
-
+    height: 50px;
+    padding: 2em;
 }
 
 /*#aboutUs{
@@ -70,44 +73,51 @@ footer {
    Need to get this to work.
  }
 */
-article.about{
-    width:75%;
-    margin:auto;
+article.about {
+    width: 75%;
+    margin: auto;
 }
 
-.about img{
-    float:left;
-    margin-right: 2em;
+.about img {
+    float: left;
+    margin-right: 3em;
 }
 
-.chooseUs h2{
+.chooseUs h2 {
     font-size: 56px;
     font-weight: bold;
     text-align: center;
     color: whitesmoke;
 }
-.section1 img{
-    margin-right:2em;
+
+.section1 img {
+    margin-left: 5em;
+    margin-right: 2em;
     float: left;
 }
-.section1 p{
+
+.section1 p {
     margin-right: 3em;
 }
-.section2 img{
+
+.section2 img {
     margin-left: 2em;
-    float:right;
+    float: right;
 }
-.section2 p{
+
+.section2 p {
     margin: 3em;
 }
 
 .clear {
     clear: both;
 }
-.wrap1{
+
+.wrap1 {
     float: right;
 }
-.wrap2{
+
+.wrap2 {
     float: left;
 }
 
@@ -118,19 +128,21 @@ a {
     font-weight: lighter;
     text-decoration: none;
 }
+
 nav a {
     font-weight: lighter;
     color: ghostwhite;
 }
+
 #navBar {
-       border-left: 2px solid white;
-       border-right: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
 }
 
 nav ul li {
-        display: inline-block;
-        color: ghostwhite;
-    }
+    display: inline-block;
+    color: ghostwhite;
+}
 
 a:hover, a:active, a:focus, .selected {
     background-color: crimson;
@@ -149,18 +161,23 @@ nav ul li a {
 font-family: 'Comfortaa', cursive;
 font-family: 'Josefin Slab', serif;
 */
-#font1{
+#font1 {
     font-family: 'Times New Roman', Times, serif;
-    }
+}
+
 #font2 {
     font-family: 'Barlow Condensed', sans-serif;
 }
+
 #font3 {
     font-family: 'Comfortaa', cursive;
 }
+
 #font4 {
     font-family: 'Josefin Slab', serif;
 }
+/*END FONTS*/
+
 /*Table Styles*/
 table, tr, th, td {
     border: 1px solid black;
@@ -188,23 +205,29 @@ tbody tr:nth-child(odd) {
 tbody tr:nth-child(even) {
     background-color: #777;
 }
+
 header a {
     float: left;
-    padding: 1em;
+    padding: .5em;
 }
 
 
-#teamRightColumn
-{
+#teamRightColumn {
     width: 15%;
     float: right;
     border-left: 2px;
     padding-left: 1em;
 }
 
-#teamLeftColumn 
-{
-    width: 65%;
+#teamLeftColumn {
+    width: 83%;
     border-right: 2px solid ghostwhite;
     padding-left: 1em;
+}
+
+#deptHeader {
+    font-size: xx-large;
+    font-weight: bold;
+    color: ghostwhite;
+    text-align: center;
 }
