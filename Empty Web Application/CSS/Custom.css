@@ -28,8 +28,8 @@ body {
 }
 /*h1 {
     z-index: 500;
-    color: ghostwhite;*/
-}
+    color: ghostwhite;
+}*/
 
 #h1 coName {
     text-decoration: underline;
@@ -53,8 +53,8 @@ main {
     float: right;
     top: 1em;
     font-size: 1.25em;
-    letter-spacing: 3em;
-    margin-right: 3em;
+    letter-spacing: 2em;
+    margin-right: 6em;
     display: block;
 }
 
@@ -67,20 +67,18 @@ footer {
     padding: 2em;
 }
 
-/*#aboutUs{
-    float: right;
-
-   Need to get this to work.
- }
-*/
 article.about {
     width: 75%;
-    margin: auto;
+    margin: auto;    
 }
 
 .about img {
     float: left;
     margin-right: 3em;
+}
+.about h2{
+    color: aliceblue;
+    text-decoration:underline;
 }
 
 .chooseUs h2 {
@@ -88,6 +86,10 @@ article.about {
     font-weight: bold;
     text-align: center;
     color: whitesmoke;
+}
+.chooseUs h3{
+    color: aliceblue;
+    text-decoration: underline;
 }
 
 .section1 img {
@@ -213,16 +215,21 @@ header a {
 
 
 #teamRightColumn {
+    position: sticky; /*Not working how I want it. trying to make it scroll down with the user.*/
     width: 15%;
     float: right;
     border-left: 2px;
     padding-left: 1em;
 }
 
+
 #teamLeftColumn {
     width: 83%;
     border-right: 2px solid ghostwhite;
     padding-left: 1em;
+}
+#teamLeftColumn p{
+    text-align: justify;
 }
 
 #deptHeader {
@@ -232,7 +239,7 @@ header a {
     text-align: center;
 }
 /*********************************************
-            Cutsom Lightbox Styling
+            Custom Lightbox Styling
 **********************************************/
 .thumb {
     cursor: pointer;
@@ -250,11 +257,25 @@ header a {
     display: none;
 }
 
-    #lightbox-container p {
+#lightbox-container p {
         color: #fff;
-    }
+}
 
 #lightbox-content img {
     border: 5px solid gray;
     margin: auto;
 }
+/*********************************************
+            END Custom Lightbox Styling
+**********************************************/
+#contact {
+    text-align: center;
+    font-weight: 900;
+    font-size: xx-large;
+}
+/*#classes li{
+float:left;
+}
+#schedule {
+    float:inherit;
+}*/ 
