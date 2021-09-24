@@ -92,7 +92,7 @@ article.about {
     text-decoration: underline;
 }
 
-.section1 img {
+/*.section1 img {
     margin-left: 5em;
     margin-right: 2em;
     float: left;
@@ -109,7 +109,7 @@ article.about {
 
 .section2 p {
     margin: 3em;
-}
+}*/
 
 .clear {
     clear: both;
@@ -134,11 +134,6 @@ a {
 nav a {
     font-weight: lighter;
     color: ghostwhite;
-}
-
-#navBar {
-    border-left: 2px solid white;
-    border-right: 2px solid white;
 }
 
 nav ul li {
@@ -273,9 +268,39 @@ header a {
     font-weight: 900;
     font-size: xx-large;
 }
-/*#classes li{
-float:left;
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 50px;
 }
-#schedule {
-    float:inherit;
-}*/ 
+.gridClassInfo {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid crimson;
+    padding: 2em;
+    font-size: 20px;
+    text-align: center;    
+}
+.classesGrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-bottom: 6em;
+    grid-gap: 3em;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+.imgRight {
+    float: right;
+    width: 50%;
+    max-width: 850px;
+    padding-left: 2em;
+    padding-bottom: 2em;
+}
+
+.imgLeft {
+    float: left;
+    width: 50%;
+    max-width: 850px;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
