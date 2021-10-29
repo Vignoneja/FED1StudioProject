@@ -69,16 +69,17 @@ footer {
 
 article.about {
     width: 75%;
-    margin: auto;    
+    margin: auto;
 }
 
 .about img {
     float: left;
     margin-right: 3em;
 }
-.about h2{
+
+.about h2 {
     color: aliceblue;
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 .chooseUs h2 {
@@ -87,7 +88,8 @@ article.about {
     text-align: center;
     color: whitesmoke;
 }
-.chooseUs h3{
+
+.chooseUs h3 {
     color: aliceblue;
     text-decoration: underline;
 }
@@ -223,11 +225,33 @@ header a {
     border-right: 2px solid ghostwhite;
     padding-left: 1em;
 }
-#teamLeftColumn p{
-    text-align: justify;
+
+    #teamLeftColumn p {
+        text-align: justify;
+    }
+
+#Leadership {
+    font-size: xx-large;
+    font-weight: bold;
+    color: ghostwhite;
+    text-align: center;
 }
 
-#deptHeader {
+#Sales {
+    font-size: xx-large;
+    font-weight: bold;
+    color: ghostwhite;
+    text-align: center;
+}
+
+#Administration {
+    font-size: xx-large;
+    font-weight: bold;
+    color: ghostwhite;
+    text-align: center;
+}
+
+#Instructors {
     font-size: xx-large;
     font-weight: bold;
     color: ghostwhite;
@@ -252,9 +276,9 @@ header a {
     display: none;
 }
 
-#lightbox-container p {
+    #lightbox-container p {
         color: #fff;
-}
+    }
 
 #lightbox-content img {
     border: 5px solid gray;
@@ -273,13 +297,15 @@ header a {
     display: grid;
     grid-column-gap: 50px;
 }
+
 .gridClassInfo {
     background-color: rgba(0, 0, 0, 0.8);
     border: 1px solid crimson;
     padding: 2em;
     font-size: 20px;
-    text-align: center;    
+    text-align: center;
 }
+
 .classesGrid {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -289,6 +315,7 @@ header a {
     margin-left: 6em;
     margin-right: 6em;
 }
+
 .imgRight {
     float: right;
     width: 50%;
@@ -303,4 +330,9 @@ header a {
     max-width: 850px;
     padding-right: 2em;
     padding-bottom: 2em;
+}
+.Top{
+   float: right;
+    border:solid;
+    font-size:18pt;
 }
