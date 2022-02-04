@@ -131,6 +131,7 @@ a {
     color: crimson;
     font-weight: lighter;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 nav a {
@@ -146,6 +147,7 @@ nav ul li {
 a:hover, a:active, a:focus, .selected {
     background-color: crimson;
     color: ghostwhite;
+    box-sizing: border-box;
 }
 
 
@@ -186,7 +188,9 @@ table, tr, th, td {
 table {
     text-align: center;
     margin: auto;
+    box-shadow: 0 5px 8px 3px #808080;
     color: black;
+    max-width: 90%;
 }
 
 th, td {
@@ -295,7 +299,7 @@ header a {
 
 .grid-container {
     display: grid;
-    grid-column-gap: 50px;
+    grid-column-gap: 50px;    
 }
 
 .gridClassInfo {
@@ -303,17 +307,16 @@ header a {
     border: 1px solid crimson;
     padding: 2em;
     font-size: 20px;
-    text-align: center;
+    text-align: center;    
 }
 
 .classesGrid {
     display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: rgba(0, 0, 0, 0.8);
+    grid-template-columns: auto auto auto;    
     padding-bottom: 6em;
     grid-gap: 3em;
     margin-left: 6em;
-    margin-right: 6em;
+    margin-right: 6em;    
 }
 
 .imgRight {
